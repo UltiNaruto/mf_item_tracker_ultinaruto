@@ -1,0 +1,114 @@
+﻿{
+  "mf_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "v_alignment": "top",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "1,2",
+        "h_alignment": "left",
+        "rows": [
+          [ "charge_beam", "wide_beam", "wave_beam", "plasma_beam", "ice_beam"],
+          [ "morph_ball", "morph_ball_bombs", "powerbomb", "screw_attack",""],
+          [ "speed_booster", "hijump_boots", "space_jump", "varia_suit", "gravity_suit"],
+          [ "etank", "missile", "super_missile", "ice_missile", "diffusion_missile"]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "difficulty"
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "1,2",
+      "rows": [
+        [ "charge_beam", "wide_beam", "wave_beam", "plasma_beam", "ice_beam"],
+          [ "morph_ball", "morph_ball_bombs", "pb_icon", "screw_attack",""],
+          [ "speed_booster", "hijump_boots", "space_jump", "varia_suit", "gravity_suit"],
+          [ "etank_icon", "missile_icon", "super_missile", "ice_missile", "diffusion_missile"]
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "mf_item_grid",
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_vertical": {
+    "type": "container",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "content": {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "margin": "0,0",
+                    "content": [
+                      {
+                        "type": "layout",
+                        "key": "mf_item_grid",
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

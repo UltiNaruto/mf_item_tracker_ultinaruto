@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Charge Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ChargeBeam.png",
+    "codes": "charge_beam"
+  },
+  {
+    "name": "Ice Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/IceBeam.png",
+    "codes": "ice_beam"
+  },
+  {
+    "name": "Wave Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/WaveBeam.png",
+    "codes": "wave_beam"
+  },
+  {
+    "name": "Wide Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/WideBeam.png",
+    "codes": "wide_beam"
+  },
+  {
+    "name": "Plasma Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PlasmaBeam.png",
+    "codes": "plasma_beam"
+  },
+  {
+	"name": "Super Missile",
+	"type": "toggle",
+	"img": "images/SuperMissile.png",
+	"codes": "super_missile"
+  },
+  {
+	"name": "Ice Missile",
+	"type": "toggle",
+	"img": "images/IceMissile.png",
+	"codes": "ice_missile"
+  },
+  {
+	"name": "Diffusion Missile",
+	"type": "toggle",
+	"img": "images/DiffusionMissile.png",
+	"codes": "diffusion_missile"
+  },
+  {
+    "name": "Varia Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/VariaSuit.png",
+    "codes": "varia_suit"
+  },
+  {
+    "name": "Gravity Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/GravitySuit.png",
+    "codes": "gravity_suit"
+  },
+  {
+    "name": "Morph Ball",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/MorphBall.png",
+    "codes": "morph_ball"
+  },
+  {
+    "name": "Morph Ball Bombs",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/MorphBallBombs.png",
+    "codes": "morph_ball_bombs"
+  },
+  {
+    "name": "Screw Attack",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ScrewAttack.png",
+    "codes": "screw_attack"
+  },
+  {
+    "name": "High Jump",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/HiJumpBoots.png",
+    "codes": "hijump_boots"
+  },
+  {
+    "name": "Space Jump",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/SpaceJump.png",
+    "codes": "space_jump"
+  },
+  {
+    "name": "Speed Booster",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/SpeedBooster.png",
+    "codes": "speed_booster"
+  },
+  {
+    "name": "Energy Tanks",
+    "type": "consumable",
+    "img": "images/EnergyTank.png",
+    "max_quantity": 20,
+    "codes": "etank,alltanks"
+  },
+  {
+	"name": "Etank",
+	"type": "toggle",
+	"img": "images/EnergyTank.png",
+	"codes": "etank_icon"
+  },
+  {
+    "name": "Missile Capacity",
+    "type": "consumable",
+    "img": "images/MissileLauncher.png",
+    "max_quantity": 250,
+    "increment": 5,
+    "codes": "missile"
+  },
+  {
+	"name": "Missiles",
+	"type": "toggle",
+	"img": "images/MissileLauncher.png",
+	"initial_active_state": false,
+	"codes": "missile_icon"
+  },
+  {
+    "name": "Power Bomb Capacity",
+    "type": "consumable",
+    "img": "images/PowerBombs.png",
+    "max_quantity": 74,
+    "increment": 2,
+    "codes": "powerbomb,pb"
+  },
+  {
+	"name": "Power Bombs",
+	"type": "toggle",
+	"img": "images/PowerBombs.png",
+	"initial_active_state": false,
+	"codes": "pb_icon"
+  }
+]
