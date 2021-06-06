@@ -11,7 +11,7 @@
         "h_alignment": "left",
         "rows": [
           [ "charge_beam", "wide_beam", "wave_beam", "plasma_beam", "ice_beam"],
-          [ "morph_ball", "morph_ball_bombs", "powerbomb", "screw_attack",""],
+          [ "morph_ball", "morph_ball_bombs", "powerbomb", "screw_attack","lock_level"],
           [ "speed_booster", "hijump_boots", "space_jump", "varia_suit", "gravity_suit"],
           [ "etank", "missile", "super_missile", "ice_missile", "diffusion_missile"]
         ]
@@ -37,7 +37,7 @@
       "item_margin": "1,2",
       "rows": [
         [ "charge_beam", "wide_beam", "wave_beam", "plasma_beam", "ice_beam"],
-          [ "morph_ball", "morph_ball_bombs", "pb_icon", "screw_attack",""],
+          [ "morph_ball", "morph_ball_bombs", "pb_icon", "screw_attack","lock_level"],
           [ "speed_booster", "hijump_boots", "space_jump", "varia_suit", "gravity_suit"],
           [ "etank_icon", "missile_icon", "super_missile", "ice_missile", "diffusion_missile"]
       ]
