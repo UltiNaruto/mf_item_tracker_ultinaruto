@@ -1,7 +1,8 @@
 {
   "name": "Metroid Fusion Item Tracker",
-  "game_name": "Metroid Fusion",
-  "package_version": "1.0.1",
+  "game_name": "Metroid Fusion Randomizer",
+  "game_variant": "Standard",
+  "package_version": "1.0.1.0",
   "package_uid": "mf_item_tracker_ultinaruto",
   "author": "UltiNaruto"
 }
