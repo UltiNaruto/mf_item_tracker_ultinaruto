@@ -1,0 +1,15 @@
+{
+  "name": "UltiNaruto's Trackers",
+  "packages": [
+    {
+      "name": "Metroid Fusion Item Tracker",
+      "author": "UltiNaruto",
+      "game_name": "Metroid Fusion Randomizer",
+      "version": "1.0.1.0",
+      "flags": [ ],
+      "required_app_version": "2.1.0.0",
+      "uid": "mf_item_tracker_ultinaruto",
+      "link": "https://ultinaruto.github.io/mf_item_tracker_ultinaruto/mf_item_tracker_ultinaruto.zip"
+    }
+  ]
+}
