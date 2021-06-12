@@ -1,6 +1,6 @@
 # Description
 
-This is an item tracker for Metroid Fusion to use with [EmoTracker](https://emotracker.net). It can be hooked with Bizhawk to provide auto item tracking.
+This is an item tracker for Metroid Fusion to use with [EmoTracker](https://emotracker.net). <s>It can be hooked with Bizhawk to provide auto item tracking.</s>
 
 ## Thanks
 
