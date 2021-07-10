@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Lock Level",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/LockLevel1.png",
+        "codes": "lock_level,l1"
+      },
+      {
+        "img": "images/LockLevel2.png",
+        "codes": "lock_level,l2"
+      },
+      {
+        "img": "images/LockLevel3.png",
+        "codes": "lock_level,l3"
+      },
+      {
+        "img": "images/LockLevel4.png",
+        "codes": "lock_level,l4"
+      }
+    ]
+  }
+]

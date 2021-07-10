@@ -1,3 +1,8 @@
+1.0.2
+Added Split Lock Levels variant
+Added black outline to Lock Level images
+
+---------------
 1.0.1
 Added Lock Level icons
 

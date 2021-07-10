@@ -35,22 +35,22 @@
     "codes": "plasma_beam"
   },
   {
-	"name": "Super Missile",
-	"type": "toggle",
-	"img": "images/SuperMissile.png",
-	"codes": "super_missile"
+    "name": "Super Missile",
+    "type": "toggle",
+    "img": "images/SuperMissile.png",
+    "codes": "super_missile"
   },
   {
-	"name": "Ice Missile",
-	"type": "toggle",
-	"img": "images/IceMissile.png",
-	"codes": "ice_missile"
+    "name": "Ice Missile",
+    "type": "toggle",
+    "img": "images/IceMissile.png",
+    "codes": "ice_missile"
   },
   {
-	"name": "Diffusion Missile",
-	"type": "toggle",
-	"img": "images/DiffusionMissile.png",
-	"codes": "diffusion_missile"
+    "name": "Diffusion Missile",
+    "type": "toggle",
+    "img": "images/DiffusionMissile.png",
+    "codes": "diffusion_missile"
   },
   {
     "name": "Varia Suit",
@@ -116,10 +116,10 @@
     "codes": "etank,alltanks"
   },
   {
-	"name": "Etank",
-	"type": "toggle",
-	"img": "images/EnergyTank.png",
-	"codes": "etank_icon"
+    "name": "Etank",
+    "type": "toggle",
+    "img": "images/EnergyTank.png",
+    "codes": "etank_icon"
   },
   {
     "name": "Missile Capacity",
@@ -130,11 +130,11 @@
     "codes": "missile"
   },
   {
-	"name": "Missiles",
-	"type": "toggle",
-	"img": "images/MissileLauncher.png",
-	"initial_active_state": false,
-	"codes": "missile_icon"
+    "name": "Missiles",
+    "type": "toggle",
+    "img": "images/MissileLauncher.png",
+    "initial_active_state": false,
+    "codes": "missile_icon"
   },
   {
     "name": "Power Bomb Capacity",
@@ -145,32 +145,10 @@
     "codes": "powerbomb,pb"
   },
   {
-	"name": "Power Bombs",
-	"type": "toggle",
-	"img": "images/PowerBombs.png",
-	"initial_active_state": false,
-	"codes": "pb_icon"
-  },
-  {
-    "name": "Lock Level",
-    "type": "progressive",
-	"stages": [
-		{
-			"img": "images/LockLevel1.png",
-			"codes": "lock_level,l1"
-		},
-		{
-			"img": "images/LockLevel2.png",
-			"codes": "lock_level,l2"
-		},
-		{
-			"img": "images/LockLevel3.png",
-			"codes": "lock_level,l3"
-		},
-		{
-			"img": "images/LockLevel4.png",
-			"codes": "lock_level,l4"
-		}
-	]
+    "name": "Power Bombs",
+    "type": "toggle",
+    "img": "images/PowerBombs.png",
+    "initial_active_state": false,
+    "codes": "pb_icon"
   }
 ]
