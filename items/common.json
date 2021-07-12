@@ -150,5 +150,19 @@
     "img": "images/PowerBombs.png",
     "initial_active_state": false,
     "codes": "pb_icon"
+  },
+  {
+    "name": "Missile Data",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/DataMissile.png",
+    "codes": "datam"
+  },
+  {
+    "name": "Power Bomb Data",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/DataPB.png",
+    "codes": "datapb"
   }
 ]

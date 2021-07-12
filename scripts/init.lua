@@ -3,6 +3,7 @@ IS_SPLIT_LOCK_LEVELS = string.find(Tracker.ActiveVariantUID, "split_lock_levels"
 -- Items
 
 Tracker:AddItems("items/common.json")
+Tracker:AddItems("items/bosses.json")
 if IS_SPLIT_LOCK_LEVELS then
 	Tracker:AddItems("items/lock_levels/split.json")
 else

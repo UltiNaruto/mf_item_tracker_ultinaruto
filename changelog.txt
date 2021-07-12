@@ -1,3 +1,8 @@
+1.0.3
+Added bosses icons, missile data and PB data icons
+Replaced old icons with Jakoliath's icons
+
+---------------
 1.0.2
 Added Split Lock Levels variant
 Added black outline to Lock Level images
