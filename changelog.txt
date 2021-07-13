@@ -1,3 +1,7 @@
+1.1.0
+Added auto tracking support
+
+---------------
 1.0.3
 Added bosses icons, missile data and PB data icons
 Replaced old icons with Jakoliath's icons

@@ -19,3 +19,10 @@ else
 end
 
 Tracker:AddLayouts("layouts/broadcast.json")
+
+-- Autotracking if supported
+if _VERSION == "Lua 5.3" then
+    ScriptHost:LoadScript("scripts/autotracking.lua")
+else
+    print("Autotracking is unsupported by your EmoTracker version, please update to the latest version!")
+end
