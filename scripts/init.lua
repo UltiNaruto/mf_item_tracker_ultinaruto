@@ -14,11 +14,11 @@ end
 
 if IS_SPLIT_LOCK_LEVELS then
 	Tracker:AddLayouts("layouts/split_lock_levels/tracker.json")
+	Tracker:AddLayouts("layouts/split_lock_levels/broadcast.json")
 else
 	Tracker:AddLayouts("layouts/standard/tracker.json")
+	Tracker:AddLayouts("layouts/standard/broadcast.json")
 end
-
-Tracker:AddLayouts("layouts/broadcast.json")
 
 -- Autotracking if supported
 if _VERSION == "Lua 5.3" then
