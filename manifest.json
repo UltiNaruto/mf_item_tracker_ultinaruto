@@ -3,13 +3,10 @@
   "game_name": "Metroid Fusion Randomizer",
   "game_variant": "standard",
   "platform": "gba",
-  "package_version": "1.1.1.0",
+  "package_version": "1.2.0.0",
   "package_uid": "mf_item_tracker_ultinaruto",
   "author": "UltiNaruto & Jakoliath",
   "variants": {
-    "split_lock_levels": {
-      "display_name": "Split Lock Levels"
-    },
     "standard": {
       "display_name": "Standard"
     }

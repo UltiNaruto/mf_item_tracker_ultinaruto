@@ -1,0 +1,56 @@
+[
+  {
+	"name": "Split Security",
+	"type": "progressive",
+	"allow_disabled": false,
+	"loop": true,
+	"initial_stage_idx": 0,
+	"stages": [
+	  {
+		"img": "images/settings/setting_split_security_off.png",
+		"codes": "setting_split_security, setting_split_security_off"
+	  },
+	  {
+		"img": "images/settings/setting_split_security_on.png",
+		"codes": "setting_split_security, setting_split_security_on",
+		"inherits_codes": false
+	  }
+	]
+  },
+  {
+	"name": "Require Main Missile",
+	"type": "progressive",
+	"allow_disabled": false,
+	"loop": true,
+	"initial_stage_idx": 0,
+	"stages": [
+	  {
+		"img": "images/settings/setting_require_main_missile_off.png",
+		"codes": "setting_require_main_missile, setting_require_main_missile_off"
+	  },
+	  {
+		"img": "images/settings/setting_require_main_missile_on.png",
+		"codes": "setting_require_main_missile, setting_require_main_missile_on",
+		"inherits_codes": false
+	  }
+	]
+  },
+  {
+	"name": "Require Main PB",
+	"type": "progressive",
+	"allow_disabled": false,
+	"loop": true,
+	"initial_stage_idx": 0,
+	"stages": [
+	  {
+		"img": "images/settings/setting_require_main_pb_off.png",
+		"codes": "setting_require_main_pb, setting_require_main_pb_off"
+	  },
+	  {
+		"img": "images/settings/setting_require_main_pb_on.png",
+		"codes": "setting_require_main_pb, setting_require_main_pb_on",
+		"inherits_codes": false
+	  }
+	]
+  }
+]

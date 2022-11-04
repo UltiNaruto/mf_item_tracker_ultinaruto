@@ -3,77 +3,77 @@
     "name": "Arachnus",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Arachnus.png",
+    "img": "images/bosses/Arachnus.png",
     "codes": "arachnus"
   },
   {
     "name": "Torizo",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Torizo.png",
+    "img": "images/bosses/Torizo.png",
     "codes": "torizo"
   },
   {
     "name": "Zazabi",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Zazabi.png",
+    "img": "images/bosses/Zazabi.png",
     "codes": "zazabi"
   },
   {
     "name": "Serris",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Serris.png",
+    "img": "images/bosses/Serris.png",
     "codes": "serris"
   },
   {
     "name": "Big Core X",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Chungus.png",
+    "img": "images/bosses/Chungus.png",
     "codes": "chungus"
   },
   {
     "name": "Scientist X",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Science.png",
+    "img": "images/bosses/Science.png",
     "codes": "science"
   },
   {
     "name": "Yakuza",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Yakuza.png",
+    "img": "images/bosses/Yakuza.png",
     "codes": "yakuza"
   },
   {
     "name": "Nettori",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Nettori.png",
+    "img": "images/bosses/Nettori.png",
     "codes": "nettori"
   },
   {
     "name": "Nightmare",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Nightmare.png",
+    "img": "images/bosses/Nightmare.png",
     "codes": "nightmare"
   },
   {
     "name": "B.O.X.",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Box2.png",
+    "img": "images/bosses/Box2.png",
     "codes": "box2"
   },
   {
     "name": "Ridley",
     "type": "toggle",
     "loop": "true",
-    "img": "images/Ridley.png",
+    "img": "images/bosses/Ridley.png",
     "codes": "ridley"
   }
 ]

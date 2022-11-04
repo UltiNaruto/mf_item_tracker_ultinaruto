@@ -7,11 +7,11 @@
     "item_size": 40,
     "rows": [
       [ "charge_beam", "wide_beam", "wave_beam", "plasma_beam", "ice_beam", "etank" ],
-      [ "missile", "super_missile", "ice_missile", "diffusion_missile", "varia_suit", "gravity_suit" ],
-      [ "morph_ball", "morph_ball_bombs", "powerbomb", "hijump_boots", "space_jump", "screw_attack" ],
-      [ "speed_booster", "arachnus", "torizo", "zazabi", "serris", "chungus" ],
-      [ "science", "yakuza", "nettori", "nightmare", "box2", "ridley" ],
-      [ "datam", "datapb", "l1", "l2", "l3", "l4" ]
+      [ "datam", "missile", "super_missile", "ice_missile", "diffusion_missile", "varia_suit", "gravity_suit" ],
+      [ "datapb", "morph_ball", "morph_ball_bombs", "powerbomb", "hijump_boots", "space_jump", "screw_attack" ],
+      [ "speed_booster", "arachnus", "torizo", "zazabi", "serris", "chungus", "science" ],
+      [ "", "yakuza", "nettori", "nightmare", "box2", "ridley", "lock_level" ],
+      [ "l1", "l2", "l3", "l4" ]
     ]
   },
   "tracker_broadcast": {

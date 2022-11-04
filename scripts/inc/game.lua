@@ -1,8 +1,3 @@
-ScriptHost:LoadScript("scripts/inc/constants.lua")
-ScriptHost:LoadScript("scripts/inc/memory.lua")
-
-IS_SPLIT_LOCK_LEVELS = string.find(Tracker.ActiveVariantUID, "split_lock_levels") ~= nil
-
 missile_bomb_status = nil
 max_missiles = nil
 max_powerbombs = nil
@@ -44,8 +39,12 @@ function updateMissileBallStatus()
 	if isInGame() then
 		-- Missile Launcher
 		Tracker:FindObjectForCode("datam").Active = missileBallStatus & 1 == 1
-		Tracker:FindObjectForCode("missile_icon").Active = missileBallStatus & 1 == 1
 		Tracker:FindObjectForCode("missile").AcquiredCount = read_u16("IRAM", OFF_IRAM_MAX_MISSILES)
+		if Tracker:FindObjectForCode("setting_require_main_missile").CurrentStage then
+			Tracker:FindObjectForCode("missile_icon").Active = missileBallStatus & 1 == 1
+		else
+			Tracker:FindObjectForCode("missile_icon").Active = Tracker:FindObjectForCode("missile").AcquiredCount > 0
+		end
 		-- Super Missile
 		Tracker:FindObjectForCode("super_missile").Active = missileBallStatus & 2 == 2
 		-- Ice Missile
@@ -56,8 +55,12 @@ function updateMissileBallStatus()
 		Tracker:FindObjectForCode("morph_ball_bombs").Active = missileBallStatus & 16 == 16
 		-- Power Bombs
 		Tracker:FindObjectForCode("datapb").Active = missileBallStatus & 32 == 32
-		Tracker:FindObjectForCode("pb_icon").Active = missileBallStatus & 32 == 32
 		Tracker:FindObjectForCode("powerbomb").AcquiredCount = read_u8("IRAM", OFF_IRAM_MAX_POWERBOMBS)
+		if Tracker:FindObjectForCode("setting_require_main_pb").CurrentStage then
+			Tracker:FindObjectForCode("pb_icon").Active = missileBallStatus & 32 == 32
+		else
+			Tracker:FindObjectForCode("pb_icon").Active = Tracker:FindObjectForCode("powerbomb").AcquiredCount > 0
+		end
 	else
 		-- Missile Launcher
 		Tracker:FindObjectForCode("datam").Active = false
@@ -165,7 +168,7 @@ end
 -- Get lock level
 function updateLockLevel()
 	local lockLevel = read_u8("IRAM", OFF_IRAM_LOCK_LEVEL)
-	if IS_SPLIT_LOCK_LEVELS then
+	if Tracker:FindObjectForCode("setting_split_security").CurrentStage == 1 then
 		if isInGame() then
 			Tracker:FindObjectForCode("l1").Active = lockLevel & 2 == 2
 			Tracker:FindObjectForCode("l2").Active = lockLevel & 4 == 4
@@ -177,6 +180,7 @@ function updateLockLevel()
 			Tracker:FindObjectForCode("l3").Active = false
 			Tracker:FindObjectForCode("l4").Active = false
 		end
+		Tracker:FindObjectForCode("lock_level").CurrentStage = 0
 	else
 		-- To prevent lock level to be -1
 		if lockLevel < 0 then
@@ -187,6 +191,10 @@ function updateLockLevel()
 		else
 			Tracker:FindObjectForCode("lock_level").CurrentStage = 0
 		end
+		Tracker:FindObjectForCode("l1").Active = false
+		Tracker:FindObjectForCode("l2").Active = false
+		Tracker:FindObjectForCode("l3").Active = false
+		Tracker:FindObjectForCode("l4").Active = false
 	end
 end
 

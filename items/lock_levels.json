@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Lock Level",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/lock_levels/LockLevel1.png",
+        "codes": "lock_level"
+      },
+      {
+        "img": "images/lock_levels/LockLevel2.png",
+        "codes": "lock_level"
+      },
+      {
+        "img": "images/lock_levels/LockLevel3.png",
+        "codes": "lock_level"
+      },
+      {
+        "img": "images/lock_levels/LockLevel4.png",
+        "codes": "lock_level"
+      }
+    ]
+  },
+  {
+    "name": "Lock Level 1",
+    "type": "toggle",
+    "img": "images/lock_levels/LockLevel1.png",
+    "initial_active_state": false,
+    "codes": "l1"
+  },
+  {
+    "name": "Lock Level 2",
+    "type": "toggle",
+    "img": "images/lock_levels/LockLevel2.png",
+    "initial_active_state": false,
+    "codes": "l2"
+  },
+  {
+    "name": "Lock Level 3",
+    "type": "toggle",
+    "img": "images/lock_levels/LockLevel3.png",
+    "initial_active_state": false,
+    "codes": "l3"
+  },
+  {
+    "name": "Lock Level 4",
+    "type": "toggle",
+    "img": "images/lock_levels/LockLevel4.png",
+    "initial_active_state": false,
+    "codes": "l4"
+  }
+]

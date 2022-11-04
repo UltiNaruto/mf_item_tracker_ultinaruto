@@ -1,0 +1,79 @@
+﻿{
+  "setting_menu_randomizer": {
+    "type": "array",
+	"orientation": "vertical",
+	"item_margin": "1,2",
+	"content": [
+	  {
+		"type": "item",
+		"item": "setting_split_security",
+		"width": 200,
+		"height": 16
+	  },
+	  {
+		"type": "item",
+		"item": "setting_require_main_missile",
+		"width": 200,
+		"height": 16
+	  },
+	  {
+		"type": "item",
+		"item": "setting_require_main_PB",
+		"width": 200,
+		"height": 16
+	  }
+	]
+  },
+  "options_popup": {
+	"type": "tabbed",
+	"tabs": [
+	  {
+		"title": "Randomizer",
+		"content": {
+		  "type": "layout",
+		  "key": "setting_menu_randomizer",
+		  "h_alignment": "left"
+		}
+	  }
+	]
+  },
+  "mf_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "v_alignment": "center",
+    "item_margin": "3,5",
+    "item_size": 40,
+    "rows": [
+      [ "charge_beam", "wide_beam", "wave_beam", "plasma_beam", "ice_beam", "etank" ],
+      [ "datam", "missile", "super_missile", "ice_missile", "diffusion_missile", "varia_suit", "gravity_suit" ],
+      [ "datapb", "morph_ball", "morph_ball_bombs", "powerbomb", "hijump_boots", "space_jump", "screw_attack" ],
+      [ "speed_booster", "arachnus", "torizo", "zazabi", "serris", "chungus", "science" ],
+      [ "", "yakuza", "nettori", "nightmare", "box2", "ridley", "lock_level" ],
+      [ "l1", "l2", "l3", "l4" ]
+    ]
+  },
+  "tracker_default": {
+    "type": "container",
+    "width": 350,
+    "height": 350,
+    "content": [
+      {
+        "type": "group",
+        "header": "Items",
+        "dock": "top",
+        "header_content": {
+          "type": "button_popup",
+		  "style": "settings",
+		  "popup_background": "#FF212121",
+		  "layout": "options_popup"
+        },
+        "content": {
+		  "dropshadow": true,
+		  "margin": 1,
+		  "type": "layout",
+		  "key": "mf_item_grid"
+        }
+      }
+    ]
+  }
+}
