@@ -6,4 +6,4 @@ Poptracker is another item tracker that can use this pack, but autotracking feat
 
 ## Thanks
 
-ChaosMiles07, Ridleymaster for the original SM icons (https://www.spriters-resource.com/custom_edited/metroidcustoms/sheet/23198/),  Jakoliath for the new icons specific to Fusion(Added 2/16/2024)
+ChaosMiles07, Ridleymaster for the original SM icons (https://www.spriters-resource.com/custom_edited/metroidcustoms/sheet/23198/),  Jakoliath for the new icons specific to Fusion(Added 2/16/2024), UltiNaruto for the original tracker
